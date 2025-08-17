@@ -212,12 +212,12 @@ const Contact = () => {
             and drive meaningful impact in your organization or community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
+            {/* <a
               href={`mailto:${personalInfo.email}`}
               className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium transition-colors duration-200"
             >
               Schedule a Call
-            </a>
+            </a> */}
             <a
               href={personalInfo.links.linkedin}
               target="_blank"
