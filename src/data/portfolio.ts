@@ -1,5 +1,5 @@
 export const personalInfo = {
-  name: "Cletus Mangu",
+  name: "Cletus Nehinlalei Mangu",
   fullName: "Mangu Nehinlalei Cletus",
   title: "DevOps Engineer | AWS Certified Solutions Architect",
   subtitle: "Computer Networking | MCFSP-KNUST Alumni | Youth Activist",
