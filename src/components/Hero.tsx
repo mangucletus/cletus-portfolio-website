@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="relative w-64 h-64 lg:w-80 lg:h-80">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-orange-500 rounded-full opacity-20 blur-xl"></div>
               <img
-                src="./images/cletus.jpeg"
+                src="/images/cletus.jpeg"
                 alt="Cletus Nehinlalei Mangu"
                 className="relative w-full h-full object-cover rounded-full border-4 border-white shadow-2xl"
               />
