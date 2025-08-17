@@ -58,10 +58,10 @@ const Contact = () => {
                 <div className="flex-shrink-0 p-3 bg-green-100 text-green-600 rounded-lg">
                   <Phone size={24} />
                 </div>
-                <div>
+                {/* <div>
                   <h4 className="font-semibold text-gray-900">Phone</h4>
                   <p className="text-gray-600">{personalInfo.phone}</p>
-                </div>
+                </div> */}
               </div>
 
               <div className="flex items-center gap-4">
@@ -208,7 +208,7 @@ const Contact = () => {
             Ready to Build Something Amazing?
           </h3>
           <p className="text-lg mb-6 opacity-90">
-            Let's discuss how we can leverage cloud technology to solve your challenges 
+            Let's discuss how we can leverage AWS cloud technology to solve your challenges 
             and drive meaningful impact in your organization or community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

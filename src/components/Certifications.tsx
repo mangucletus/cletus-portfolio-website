@@ -43,10 +43,10 @@ const Certifications = () => {
                     <p className="text-orange-600 font-semibold mb-3">
                       Issued by {cert.issuer}
                     </p>
-                    <div className="flex items-center gap-2 text-green-600">
+                    {/* <div className="flex items-center gap-2 text-green-600">
                       <CheckCircle size={16} />
                       <span className="text-sm font-medium">Verified Credential</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@ const Certifications = () => {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">10+</div>
+                <div className="text-3xl font-bold mb-2">5+</div>
                 <div className="opacity-90">Certifications Earned</div>
               </div>
               <div className="text-center">
@@ -121,7 +121,7 @@ const Certifications = () => {
         </div>
 
         {/* Verify Credentials */}
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <p className="text-gray-600 mb-6">
             All certifications can be verified through their respective issuing organizations.
           </p>
@@ -129,7 +129,7 @@ const Certifications = () => {
             <ExternalLink size={20} />
             Verify Credentials
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

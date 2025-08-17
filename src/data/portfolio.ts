@@ -5,7 +5,7 @@ export const personalInfo = {
   subtitle: "Computer Networking | MCFSP-KNUST Alumni | Youth Activist",
   location: "Kumasi, Ashanti Region, Ghana",
   email: "mangucletus@gmail.com",
-  phone: "+233549654997",
+  // phone: "+233549654997",
   summary: "DevOps engineer and AWS Certified Solutions Architect with 2+ years of experience in cloud infrastructure. Designed and deployed scalable AWS solutions that reduced deployment time by 60% and improved system reliability by 40%. Skilled in infrastructure as code (Terraform), CI/CD automation, and cloud-native architectures. Focused on delivering practical, secure, and cost-efficient solutions that support digital growth in emerging communities.",
   links: {
     linkedin: "https://www.linkedin.com/in/cletus-mangu-09b7941a9",
@@ -68,7 +68,7 @@ export const skills = {
     { name: "GitHub Actions", level: 92, category: "CI/CD" },
     { name: "Kubernetes", level: 80, category: "DevOps" },
     { name: "Bash", level: 88, category: "Scripting" },
-    { name: "JavaScript", level: 82, category: "Programming" }
+    // { name: "JavaScript", level: 82, category: "Programming" }
   ],
   soft: [
     "Effective Communication",
@@ -85,7 +85,7 @@ export const projects = [
     title: "Task Management System",
     description: "Built serverless app for 500+ users with 99.9% uptime. Integrated Cognito-based MFA and JWT login, cutting auth delays by 50%.",
     technologies: ["React", "AWS Lambda", "DynamoDB", "GraphQL", "Terraform"],
-    github: "https://github.com/mangucletus/task-management-system",
+    github: "https://github.com/mangucletus/aws-serverless-task-management-system.git",
     highlights: [
       "500+ users with 99.9% uptime",
       "50% reduction in auth delays",
@@ -96,7 +96,7 @@ export const projects = [
     title: "ShopEase LTD Cloud Migration",
     description: "Deployed scalable AWS infra across 3 AZs, sustaining 99.95% uptime. Secured traffic with IAM, security groups, and bastion architecture.",
     technologies: ["Terraform", "AWS VPC", "EC2", "RDS", "ALB", "Auto Scaling"],
-    github: "https://github.com/mangucletus/shopease-cloud-migration",
+    github: "https://github.com/mangucletus/ShopEase-LTD-cloud-migration.git",
     highlights: [
       "99.95% uptime across 3 AZs",
       "0 security breaches",
@@ -107,7 +107,7 @@ export const projects = [
     title: "AWS Translate Serverless Application",
     description: "Processed 1000+ documents/day via fully serverless translation flow. Built Cognito-authenticated React frontend for 200+ concurrent users.",
     technologies: ["React", "AWS Lambda", "S3", "API Gateway", "Cognito", "Terraform"],
-    github: "https://github.com/mangucletus/aws-translate-app",
+    github: "https://github.com/mangucletus/lambda-legends_aws-serverless-translation-service.git",
     highlights: [
       "1000+ documents processed daily",
       "200+ concurrent users",
@@ -118,7 +118,7 @@ export const projects = [
     title: "Catalog Server – Complete E-commerce Solution",
     description: "Developed platform supporting 100+ products with dynamic filtering/search. Optimized AWS infrastructure with Terraform, saving 25% in resource costs.",
     technologies: ["React", "Flask", "PostgreSQL", "AWS", "Terraform"],
-    github: "https://github.com/mangucletus/catalog-server-ecommerce",
+    github: "https://github.com/mangucletus/catalog-server.git",
     highlights: [
       "100+ products with dynamic search",
       "25% savings in resource costs",

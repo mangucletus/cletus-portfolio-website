@@ -68,10 +68,17 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 flex items-center gap-2">
+
+            {/* Resume button (opens in new tab) */}
+            <a
+              href="/cletus-resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 flex items-center gap-2"
+            >
               <Download size={16} />
               Resume
-            </button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -101,10 +108,17 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white px-3 py-2 rounded-md font-medium transition-colors duration-200 flex items-center gap-2 justify-center mt-4">
+
+            {/* Resume link (mobile) */}
+            <a
+              href="/cletus-resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full bg-orange-500 hover:bg-orange-600 text-white px-3 py-2 rounded-md font-medium transition-colors duration-200 flex items-center gap-2 justify-center mt-4"
+            >
               <Download size={16} />
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
       )}

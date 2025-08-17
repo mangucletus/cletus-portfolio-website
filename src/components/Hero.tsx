@@ -12,8 +12,8 @@ const Hero = () => {
             <div className="relative w-64 h-64 lg:w-80 lg:h-80">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-orange-500 rounded-full opacity-20 blur-xl"></div>
               <img
-                src="https://images.pexels.com/photos/5212320/pexels-photo-5212320.jpeg"
-                alt="Cletus Mangu"
+                src="./images/cletus.jpeg"
+                alt="Cletus Nehinlalei Mangu"
                 className="relative w-full h-full object-cover rounded-full border-4 border-white shadow-2xl"
               />
             </div>
@@ -63,10 +63,10 @@ const Hero = () => {
                 <Mail size={16} />
                 {personalInfo.email}
               </div>
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <Phone size={16} />
                 {personalInfo.phone}
-              </div>
+              </div> */}
             </div>
 
             {/* Social Links */}
@@ -89,15 +89,15 @@ const Hero = () => {
                 <Github size={20} />
                 GitHub
               </a>
-              <a
-                href={personalInfo.links.currentPortfolio}
+              {/* <a
+                href={personalInfo.links.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-gray-300 hover:border-gray-400 text-gray-700 hover:text-gray-900 px-6 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center gap-2"
               >
                 <ExternalLink size={20} />
                 View Work
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

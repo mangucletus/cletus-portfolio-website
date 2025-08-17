@@ -84,7 +84,7 @@ const Experience = () => {
             <h3 className="text-lg font-semibold text-gray-900 mb-3">
               AWS Re/Start Trainee
             </h3>
-            <p className="text-blue-600 font-medium mb-2">AmaliTech Services GmbH</p>
+            <p className="text-blue-600 font-medium mb-2">AmaliTech GH</p>
             <p className="text-sm text-gray-500 mb-3">May 2024 – August 2024</p>
             <p className="text-gray-600">
               Completed intensive AWS re/Start training leading to AWS Certified Cloud Practitioner credential

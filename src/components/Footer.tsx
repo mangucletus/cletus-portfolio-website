@@ -75,7 +75,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Get In Touch</h3>
             <div className="space-y-2 text-gray-300">
               <p>{personalInfo.email}</p>
-              <p>{personalInfo.phone}</p>
+              {/* <p>{personalInfo.phone}</p> */}
               <p>{personalInfo.location}</p>
             </div>
             <div className="mt-4">
