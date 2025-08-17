@@ -1,6 +1,7 @@
 import React from 'react';
 import { Award, Users, Target, Heart } from 'lucide-react';
 import { personalInfo } from '../data/portfolio';
+// import { personalInfo } from '../data/portfolio';
 
 const About = () => {
   const highlights = [
