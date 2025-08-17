@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, ExternalLink } from 'lucide-react';
 import { personalInfo } from '../data/portfolio';
 
 const Hero = () => {
@@ -9,12 +9,12 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Profile Image */}
           <div className="flex-shrink-0">
-            <div className="relative w-64 h-64 lg:w-80 lg:h-80">
+            <div className="relative w-48 h-48 lg:w-64 lg:h-64">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-orange-500 rounded-full opacity-20 blur-xl"></div>
               <img
                 src="/images/cletus.jpeg"
                 alt="Cletus Nehinlalei Mangu"
-                className="relative w-full h-full object-cover rounded-full border-4 border-white shadow-2xl"
+                className="relative w-full h-full object-contain rounded-full border-4 border-white shadow-2xl bg-gray-100"
               />
             </div>
           </div>
